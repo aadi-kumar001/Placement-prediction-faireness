@@ -1,0 +1,35 @@
+{
+  "model_comparison": {
+    "Logistic Regression": {
+      "accuracy": 0.7716666666666666,
+      "f1": 0.833130328867235,
+      "auc": 0.8164675791134934
+    },
+    "Random Forest": {
+      "accuracy": 0.7658333333333334,
+      "f1": 0.8336293664890467,
+      "auc": 0.8057467824004788
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.7575,
+      "f1": 0.8237431859479104,
+      "auc": 0.8121925631653257
+    }
+  },
+  "proxy_accuracy": {
+    "gender": 0.5791666666666667,
+    "region": 0.665,
+    "family_income": 0.49583333333333335
+  },
+  "majority": {
+    "gender": 0.5791666666666667,
+    "region": 0.6533333333333333,
+    "family_income": 0.49583333333333335
+  },
+  "group_thresholds": {
+    "Female_Rural": 0.45542802623165823,
+    "Female_Urban": 0.5561473228610581,
+    "Male_Rural": 0.4277278150316285,
+    "Male_Urban": 0.5132993645190489
+  }
+}
